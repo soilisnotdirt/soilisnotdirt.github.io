@@ -56,12 +56,11 @@ body {
 }
 
 .npkOM img {
-    float: left; 
+    float: right; 
     margin-top: 76px;
     margin-left: 5px;
-    max-width: 40%;
+    max-width: 30%;
     display: block;
-
 }
 
 .npkOM {
@@ -70,9 +69,10 @@ body {
 }
 
 .npkPH img {
-    float: right;
+    float: left;
     margin-top: 76px;
-    margin-right: 5px;
+    margin-left: 100px;
+    max-width: 30%;
 }
 
 
@@ -102,15 +102,14 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 45%;
-    margin-top: 75px;
     float: left;
-    margin-left: 5px;
+    margin-left: 60px;
 }
 
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
-    padding: 8px;
+    padding: 5px;
 }
 
 tr:nth-child(even) {
