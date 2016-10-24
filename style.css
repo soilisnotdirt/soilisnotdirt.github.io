@@ -55,6 +55,26 @@ body {
     margin-top: 0px;
 }
 
+.npkOM img {
+    float: left; 
+    margin-top: 76px;
+    margin-left: 5px;
+    max-width: 40%;
+    display: block;
+
+}
+
+.npkOM {
+    text-align: justify;
+    width: 1000px;
+}
+
+.npkPH img {
+    float: right;
+    margin-top: 76px;
+    margin-right: 5px;
+}
+
 
 #button {
     border: 1px solid #4CAF50;
@@ -76,6 +96,30 @@ body {
     cursor: pointer;
     width:200px;
     border-radius: 4px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 45%;
+    margin-top: 75px;
+    float: left;
+    margin-left: 5px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.breakerNationalPark img {
+    max-width: 75%;
+    margin-top: 75px;
 }
 
 
