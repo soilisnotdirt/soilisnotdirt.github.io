@@ -1,9 +1,11 @@
+html {
+    background: whitesmoke;
+    background-size: 100%;
+}
 body {
-    background: url(background.jpg);
+    background: whitesmoke;
     color: black;
     text-align: center;
-    background-size: 100%;
-    background-attachment: fixed;
 
 }
 
@@ -17,17 +19,31 @@ body {
     border: 1px solid black;
     background-color: black;
     width: 30%;
-    
 }
 
-#fact {
+.flip {
+    margin-top: 100px;
+}
+
+#title, .flip, .flip2, .flip3, .flip4, .flip5 {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    width: 50%;
+    border: solid 1px #a6d8a8;
+    margin-left: 30px;
+}
+
+
+#fact3, #fact, #fact2, #fact4, #fact5 {
     color: black;
-    border: 1px solid black;
-    background-color: white;
-    margin: 20px left;
+    margin-left: 40px;
     width: 50%;
     font-family: 'Roboto', sans-serif;
-
+    display: none;
 }
 
 .earth img {
@@ -36,28 +52,9 @@ body {
     margin-right: 100px;
     border-radius: 5px;
     border: 5px solid white;
-    margin-top: 60px;
-}
-#subtitle {
-    margin-left: 18px;
-    font-size: 12px;
+    margin-top: 0px;
 }
 
-#content {
-    position: absolute;
-    top: 70px;
-    text-align: left;
-    margin-left: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-
-#logo {
-    height: 15%;
-    width: 15%;
-    opacity: .9;
-    border-radius: 100px;
-
-}
 
 #button {
     border: 1px solid #4CAF50;
@@ -67,10 +64,9 @@ body {
     top: 0;
     left: 0;
     right: 0;
-
 }
 
-.button-about {
+.button-about, .button-soil, .button-pictures, .button-history, .button-shop {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -80,58 +76,6 @@ body {
     cursor: pointer;
     width:200px;
     border-radius: 4px;
-   
-}
-
-.button-soil {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    width:200px;
-    border-radius: 4px;
-   
-}
-
-.button-pictures {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    width:200px;
-    border-radius: 4px;
-}
-
-.button-history {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    width:200px;
-    border-radius: 4px;
-   
-}
-
-.button-shop {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    width:200px;
-    border-radius: 4px;
-   
 }
 
 
