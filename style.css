@@ -170,3 +170,18 @@ tr:nth-child(even) {
     margin-right: 30px;
     text-align: left;
 }
+
+.sellingitems {
+    float: left;
+    width:  400px;
+    height: 400px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    margin-top: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+
+}
