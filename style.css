@@ -99,7 +99,7 @@ body {
 }
 
 table {
-    font-family: arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-collapse: collapse;
     width: 45%;
     float: left;
@@ -117,8 +117,56 @@ tr:nth-child(even) {
 }
 
 .breakerNationalPark img {
-    max-width: 75%;
+    max-width: 65%;
     margin-top: 75px;
+    float: center;
+    border: 5px solid white;
+    font-family: 'Roboto', sans-serif;
 }
 
+.breakerHistory {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
 
+.mySlides {
+    display:none
+}
+
+.demo {
+    cursor:pointer
+}
+
+.w3-container {
+    margin-top: 75px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.TextWrap {
+    border: 1px solid black;
+    float: right;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.TextWrapLeft {
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+    margin-left: 30px;
+}
+.casestudy {
+    margin-top: 120px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+}
+
+.casestudy2 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+}

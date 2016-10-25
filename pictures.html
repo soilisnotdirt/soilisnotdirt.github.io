@@ -1,5 +1,8 @@
 <!DOCTYPE html>
+<!-- w3schools.com credit for slideshow with pictures -->
 <html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 	<head>
 		<title>Soil is Not Dirt</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -15,10 +18,63 @@
 		<div id="button" style='float:center;'>
 			<a href="index.html"><button class="button-about">About</button></a>
 			<a href="soil.html"><button class="button-soil">Soil</button></a>
+			<a href="casestudy.html"><button class="button-shop">Case Study</button></a>
 			<a href="pictures.html"><button class="button-pictures">Pictures</button></a>
 			<a href="history.html"><button class="button-history">History</button></a>
 			<a href="shop.html"><button class="button-shop">Shop</button></a>
 		</div>	
+
+			<div class="w3-container">
+			  <h2>Pictures of Big Break National Park</h2>
+			
+			</div>
+
+			<div class="w3-content" style="max-width:700px">
+			  <img class="mySlides" src="river1.png" style="width:100%">
+			  <img class="mySlides" src="river2.png" style="width:100%">
+			  <img class="mySlides" src="road.png" style="width:100%">
+
+			  <div class="w3-row-padding w3-section">
+			    <div class="w3-col s4">
+			      <img class="demo w3-opacity w3-hover-opacity-off" src="river1.png" style="width:100%" onclick="currentDiv(1)">
+			    </div>
+			    <div class="w3-col s4">
+			      <img class="demo w3-opacity w3-hover-opacity-off" src="river2.png" style="width:100%" onclick="currentDiv(2)">
+			    </div>
+			    <div class="w3-col s4">
+			      <img class="demo w3-opacity w3-hover-opacity-off" src="road.png" style="width:100%" onclick="currentDiv(3)">
+			    </div>
+			  </div>
+			</div>
+
+			<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+			function currentDiv(n) {
+			  showDivs(slideIndex = n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("demo");
+			  if (n > x.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+			     x[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+			  }
+			  x[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " w3-opacity-off";
+			}
+			</script>
 
 
 	</body>
