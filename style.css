@@ -28,7 +28,7 @@ body {
     margin-top: 100px;
 }
 
-#title, .flip, .flip2, .flip3, .flip4, .flip5 {
+#title, .flip, .flip2, .flip3, .flip4, .flip5, .quiz {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     padding: 10px;
@@ -51,7 +51,7 @@ body {
 
 }
 
-.earth img {
+.earth img{
     max-width: 25%;
     float: right;
     border-radius: 5px;
@@ -222,5 +222,7 @@ body {
     display: inline-block;
     margin-top: 75px;
 }
+
+
 
 
