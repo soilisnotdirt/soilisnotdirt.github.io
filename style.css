@@ -103,7 +103,6 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    display:inline-block;
 }
 
 .button-about, .button-soil, .button-pictures, .button-history, .button-shop {
@@ -171,6 +170,32 @@ body {
     margin-left: 30px;
     margin-right: 30px;
     text-align: left;
+
+}
+.casestudy11 {
+     float: center;
+    margin-top: 120px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 230px;
+    margin-right: 230px;
+    text-align: center;
+}
+
+.casestudy12 {
+
+     float: center;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 230px;
+    margin-right: 230px;
+    text-align: center;
+}
+
+.casestudy13 {
+    float: center;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 230px;
+    margin-right: 230px;
+    text-align: center;
 }
 
 .sellingitems {
@@ -187,7 +212,6 @@ body {
     border: 2px solid black;
 
 }
-
 
 .imageVert img {
     float: center;
