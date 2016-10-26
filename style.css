@@ -6,7 +6,6 @@ body {
     background: whitesmoke;
     color: black;
     text-align: center;
-
 }
 
 .leftbody {
@@ -40,9 +39,7 @@ body {
     width: 40%;
     float: center;
     margin-left: 30%;
-
 }
-
 
 #fact3, #fact, #fact2, #fact4, #fact5 {
     color: black;
@@ -72,25 +69,31 @@ body {
 }
 
 .npkOM img {
-    float: right; 
-    margin-top: 76px;
-    margin-left: 5px;
-    max-width: 30%;
+    max-width: 50%;
     display: block;
-}
-
-.npkOM {
-    text-align: justify;
-    width: 1000px;
+    display: inline-block;
 }
 
 .npkPH img {
-    float: left;
-    margin-top: 76px;
-    margin-left: 100px;
-    max-width: 30%;
+    max-width: 50%;
+    display: block;
+    display: inline-block;
 }
 
+.npkOM {
+    float: right;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.npkPH {
+    float: right;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
 
 #button {
     border: 1px solid #4CAF50;
@@ -100,6 +103,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    display:inline-block;
 }
 
 .button-about, .button-soil, .button-pictures, .button-history, .button-shop {
@@ -112,24 +116,6 @@ body {
     cursor: pointer;
     width:200px;
     border-radius: 4px;
-}
-
-table {
-    font-family: 'Roboto', sans-serif;
-    border-collapse: collapse;
-    width: 45%;
-    float: left;
-    margin-left: 60px;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 5px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
 }
 
 .breakerNationalPark img {
@@ -201,3 +187,15 @@ tr:nth-child(even) {
     border: 2px solid black;
 
 }
+
+
+.imageVert img {
+    float: center;
+    overflow: hidden;
+    vertical-align: middle;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 75px;
+}
+
+
